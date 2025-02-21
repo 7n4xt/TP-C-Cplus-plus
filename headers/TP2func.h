@@ -28,4 +28,5 @@ void initialiser(struct Personne* p, int numero, const char* nom, enum Sexe sexe
 void afficher(const struct Personne* p);
 int tp_23();
 
+
 #endif
