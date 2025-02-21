@@ -37,7 +37,7 @@ void liberer_tableau(int *Arr) {
     printf("Memory freed.\n");
 }
 
-int appel_tp_21() {
+int tp_21() {
     int Size = 5;
     int *Arr;
 
