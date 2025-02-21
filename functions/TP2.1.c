@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <iostream>
 #include <stdlib.h>
 
 // Function to allocate memory for an array
@@ -17,7 +18,7 @@ int* allouer_tableau(int Size) {
 int saisir_valeurs(int *Arr, int Size) {
     printf("Enter your values:\n");
     for (int i = 0; i < Size; i++) {
-        scanf("%d", &Arr[i]); // Input values
+        std::cin >> Arr[i]; // Input values
     }
     return 0;
 }
@@ -36,7 +37,7 @@ void liberer_tableau(int *Arr) {
     printf("Memory freed.\n");
 }
 
-int main() {
+int appel_tp_21() {
     int Size = 5;
     int *Arr;
 
